@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edukasi Budaya Jawa Timur</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Edukasi Budaya Jawa Timur</h1>
+    <nav>
+      <ul>
+        <li><a href="#materi">Materi</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#form">Daftar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="materi">
+      <h2>Mengenal Reog Ponorogo</h2>
+      <p><strong>Reog Ponorogo</strong> adalah salah satu kesenian tradisional dari Jawa Timur yang terkenal akan topeng besar dan tariannya yang penuh semangat.</p>
+      <img src="assets/Reog1.jpg" alt="Ilustrasi Reog Ponorogo" width="300" />
+
+      <ul>
+        <li>Tenang</li>
+        <li>Ketekunan</li>
+        <li>Ketangguhan</li>
+      </ul>
+      <table>
+        <caption>Properti Reog</caption>
+        <tr>
+          <th>No</th>
+          <th>Kegunaan</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Topeng Singa Barong</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Penari Warok</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Musik Tradisional</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="media">
+      <h2>Video Edukasi</h2>
+      <video controls width="320">
+        <source src="assets/video.mp4" type="video/mp4" />
+        Video tidak didukung browser Anda.
+      </video>
+
+      <h3>Penjelasan Audio</h3>
+      <audio controls>
+        <source src="assets/audio.mpeg" type="audio/mpeg" />
+        Audio tidak didukung browser Anda.
+      </audio>
+    </section>
+
+    <section id="form">
+      <h2>Formulir Pendaftaran</h2>
+      <form onsubmit="return validateForm()">
+        <label for="nama">Nama Lengkap:</label><br />
+        <input type="text" id="nama" name="nama" /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+
+        <label for="kelas">Kelas:</label><br />
+        <select id="kelas" name="kelas">
+          <option value="1">Kelas 1</option>
+          <option value="2">Kelas 2</option>
+          <option value="3">Kelas 3</option>
+        </select><br /><br />
+
+        <input type="submit" value="Daftar" />
+      </form>
+      <p id="formMessage" class="form-msg"></p>
+    </section>
+  
+<section id="materi-pendukung">
+  <h2>Materi Pendukung Budaya Jawa Timur</h2>
+  
+  <article>
+    <h3>Ludruk</h3>
+    <p><strong>Ludruk</strong> adalah seni pertunjukan drama tradisional dari Jawa Timur yang dimainkan oleh para pria, termasuk yang memerankan tokoh wanita. Ceritanya seringkali menyampaikan kritik sosial dan humor.</p>
+  </article>
+
+  <article>
+    <h3>Batik Madura</h3>
+    <p><strong>Batik Madura</strong> dikenal dengan warna-warna cerah dan motif khas seperti flora dan fauna. Batik ini merupakan kekayaan budaya masyarakat Pulau Madura yang memiliki nilai seni tinggi.</p>
+  </article>
+</section>
+
+</main>
+
+  <footer>
+    <p>&copy; 2025 Edukasi Budaya Jawa Timur | <a href="https://example.com">Website Resmi</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
